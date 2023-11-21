@@ -43,7 +43,7 @@ def main():
                     f.write(source)
                     f.write("\n")
 
-    print("Successful Conversion!")
+    print("successfully converted")
 
 
 if __name__ == "__main__":
