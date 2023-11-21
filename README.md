@@ -1,3 +1,7 @@
 # ipynb-to-py
 
-Describe your project here.
+Convert `.ipynb` files to `.py` files
+
+## TODO
+- [] Complete this README.md
+- [] Add format suppurt, such as `ruff`
