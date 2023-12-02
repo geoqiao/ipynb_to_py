@@ -17,7 +17,7 @@
 ## How to use
 1. Install the dependencies on your python env.
 2. Open your favourite Terminal.
-3. run `python main.py` and past your Folder Path
+3. run `python main.py` and paste your Folder Path
 
 
 ## LICENSE
