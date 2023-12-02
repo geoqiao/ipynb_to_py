@@ -1,9 +1,8 @@
+import os
 from pathlib import Path
 
 import nbformat
 from nbconvert import PythonExporter
-
-import os
 
 
 def main(folder_path: Path, is_format: bool = True) -> None:
