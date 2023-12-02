@@ -2,7 +2,9 @@
 
 ## Have done
 ✅ Convert all `.ipynb` files in the given folder to `.py` files；
+
 ✨ Format all converted `.py` files using [Ruff](https://docs.astral.sh/ruff/);
+
 📎 Keep all markdown cell & comment safe.
 
 
