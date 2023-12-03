@@ -11,6 +11,7 @@ def find_ipynbs(folder_path: Path) -> list[Path]:
                 notebooks.append(os.path.join(root, file))
     return notebooks
 
+
 if __name__ == "__main__":
     p = "/Users/geoqiao/data_env/src/machine_learning"
     count = 0

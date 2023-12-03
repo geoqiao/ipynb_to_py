@@ -1,14 +1,13 @@
 [project]
 name = "ipynb-to-py"
 version = "0.1.0"
-description = "Add your description here"
+description = "Convert `.ipynb` file to `.py` file !"
 authors = [
     { name = "geoqiao", email = "realvincentqiao@gmail.com" }
 ]
 dependencies = [
     "nbformat>=5.9.2",
     "ipykernel>=6.26.0",
-    "ruff>=0.1.6",
     "nbconvert>=7.11.0",
 ]
 readme = "README.md"
