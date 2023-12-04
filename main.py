@@ -17,7 +17,7 @@ def main(folder_path: Path, is_format: bool = True) -> None:
 
     # check and format `.py` file with `ruff`
     if is_format:
-        format_by_black(pys)
+        format_by_ruff(pys)
 
 
 def find_ipynbs(folder_path: Path) -> list[Path]:
@@ -53,7 +53,7 @@ def convert_ipynb(notebooks: list[Path]):
                 py_file.write(py_code)
 
 
-def format_by_black(py_path: list[Path]):
+def format_by_ruff(py_path: list[Path]):
     """for formatting `.py` file using `ruff`"""
     for py_file in py_path:
         os.system(f"ruff check --fix {py_file}")
